@@ -54,85 +54,81 @@ export default function About() {
           <h2 className="text-3xl font-bold text-center mb-12 text-white">Skills & Expertise</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           
-            <div className="bg-white/10 backdrop-blur-lg rounded-xl p-6 text-white">
-              <h3 className="text-xl font-semibold mb-4">Frontend</h3>
+            <div className="group bg-white/10 backdrop-blur-lg rounded-xl p-6 text-white transform transition-all duration-300 hover:scale-105 hover:bg-white/20 hover:shadow-xl hover:shadow-blue-500/20">
+              <h3 className="text-xl font-semibold mb-4 group-hover:text-blue-300 transition-colors">Frontend</h3>
               <ul className="space-y-2">
-                <li className="flex items-center">
-                  <span className="w-2 h-2 bg-blue-400 rounded-full mr-2"></span>
+                <li className="flex items-center transform transition-transform hover:translate-x-2">
+                  <span className="w-2 h-2 bg-blue-400 rounded-full mr-2 group-hover:bg-blue-300"></span>
                   HTML5/CSS3
                 </li>
-                <li className="flex items-center">
-                  <span className="w-2 h-2 bg-blue-400 rounded-full mr-2"></span>
+                <li className="flex items-center transform transition-transform hover:translate-x-2">
+                  <span className="w-2 h-2 bg-blue-400 rounded-full mr-2 group-hover:bg-blue-300"></span>
                   JavaScript/ES6+
                 </li>
-                <li className="flex items-center">
-                  <span className="w-2 h-2 bg-blue-400 rounded-full mr-2"></span>
+                <li className="flex items-center transform transition-transform hover:translate-x-2">
+                  <span className="w-2 h-2 bg-blue-400 rounded-full mr-2 group-hover:bg-blue-300"></span>
                   React.js
                 </li>
-                <li className="flex items-center">
-                  <span className="w-2 h-2 bg-blue-400 rounded-full mr-2"></span>
+                <li className="flex items-center transform transition-transform hover:translate-x-2">
+                  <span className="w-2 h-2 bg-blue-400 rounded-full mr-2 group-hover:bg-blue-300"></span>
                   Next.js
                 </li>
               </ul>
             </div>
 
-   
-            <div className="bg-white/10 backdrop-blur-lg rounded-xl p-6 text-white">
-              <h3 className="text-xl font-semibold mb-4">Styling</h3>
+            <div className="group bg-white/10 backdrop-blur-lg rounded-xl p-6 text-white transform transition-all duration-300 hover:scale-105 hover:bg-white/20 hover:shadow-xl hover:shadow-blue-500/20">
+              <h3 className="text-xl font-semibold mb-4 group-hover:text-blue-300 transition-colors">Styling</h3>
               <ul className="space-y-2">
-                <li className="flex items-center">
-                  <span className="w-2 h-2 bg-blue-400 rounded-full mr-2"></span>
+                <li className="flex items-center transform transition-transform hover:translate-x-2">
+                  <span className="w-2 h-2 bg-blue-400 rounded-full mr-2 group-hover:bg-blue-300"></span>
                   Tailwind CSS
                 </li>
-                <li className="flex items-center">
-                  <span className="w-2 h-2 bg-blue-400 rounded-full mr-2"></span>
+                <li className="flex items-center transform transition-transform hover:translate-x-2">
+                  <span className="w-2 h-2 bg-blue-400 rounded-full mr-2 group-hover:bg-blue-300"></span>
                   CSS Modules
                 </li>
-                <li className="flex items-center">
-                  <span className="w-2 h-2 bg-blue-400 rounded-full mr-2"></span>
+                <li className="flex items-center transform transition-transform hover:translate-x-2">
+                  <span className="w-2 h-2 bg-blue-400 rounded-full mr-2 group-hover:bg-blue-300"></span>
                   Styled Components
                 </li>
-                <li className="flex items-center">
-                  <span className="w-2 h-2 bg-blue-400 rounded-full mr-2"></span>
+                <li className="flex items-center transform transition-transform hover:translate-x-2">
+                  <span className="w-2 h-2 bg-blue-400 rounded-full mr-2 group-hover:bg-blue-300"></span>
                   Figma UI
                 </li>
               </ul>
             </div>
 
-            <div className="bg-white/10 backdrop-blur-lg rounded-xl p-6 text-white">
-              <h3 className="text-xl font-semibold mb-4">Backend</h3>
+            <div className="group bg-white/10 backdrop-blur-lg rounded-xl p-6 text-white transform transition-all duration-300 hover:scale-105 hover:bg-white/20 hover:shadow-xl hover:shadow-blue-500/20">
+              <h3 className="text-xl font-semibold mb-4 group-hover:text-blue-300 transition-colors">Backend</h3>
               <ul className="space-y-2">
-                <li className="flex items-center">
-                  <span className="w-2 h-2 bg-blue-400 rounded-full mr-2"></span>
+                <li className="flex items-center transform transition-transform hover:translate-x-2">
+                  <span className="w-2 h-2 bg-blue-400 rounded-full mr-2 group-hover:bg-blue-300"></span>
                   Node.js
                 </li>
-                
-                <li className="flex items-center">
-                  <span className="w-2 h-2 bg-blue-400 rounded-full mr-2"></span>
-                 SQL,SEO
+                <li className="flex items-center transform transition-transform hover:translate-x-2">
+                  <span className="w-2 h-2 bg-blue-400 rounded-full mr-2 group-hover:bg-blue-300"></span>
+                  SQL,SEO
                 </li>
-                <li className="flex items-center">
-                  <span className="w-2 h-2 bg-blue-400 rounded-full mr-2"></span>
+                <li className="flex items-center transform transition-transform hover:translate-x-2">
+                  <span className="w-2 h-2 bg-blue-400 rounded-full mr-2 group-hover:bg-blue-300"></span>
                   MongoDB
                 </li>
               </ul>
             </div>
 
-
-            <div className="bg-white/10 backdrop-blur-lg rounded-xl p-6 text-white">
-              <h3 className="text-xl font-semibold mb-4">Tools & Others</h3>
+            <div className="group bg-white/10 backdrop-blur-lg rounded-xl p-6 text-white transform transition-all duration-300 hover:scale-105 hover:bg-white/20 hover:shadow-xl hover:shadow-blue-500/20">
+              <h3 className="text-xl font-semibold mb-4 group-hover:text-blue-300 transition-colors">Tools & Others</h3>
               <ul className="space-y-2">
-                <li className="flex items-center">
-                  <span className="w-2 h-2 bg-blue-400 rounded-full mr-2"></span>
+                <li className="flex items-center transform transition-transform hover:translate-x-2">
+                  <span className="w-2 h-2 bg-blue-400 rounded-full mr-2 group-hover:bg-blue-300"></span>
                   Git/GitHub
                 </li>
-                <li className="flex items-center">
-                  <span className="w-2 h-2 bg-blue-400 rounded-full mr-2"></span>
+                <li className="flex items-center transform transition-transform hover:translate-x-2">
+                  <span className="w-2 h-2 bg-blue-400 rounded-full mr-2 group-hover:bg-blue-300"></span>
                   VS Code
                 </li>
-               
-                <li className="flex items-center">
-                  <span className="w-2 h-2 bg-blue-400 rounded-full mr-2"></span>
+                <li className="flex items-center transform transition-transform hover:translate-x-2">
+                  <span className="w-2 h-2 bg-blue-400 rounded-full mr-2 group-hover:bg-blue-300"></span>
                   npm/npx
                 </li>
               </ul>
