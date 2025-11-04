@@ -74,7 +74,7 @@ Synonyms: Can be broken down into front-end development (what the user sees and 
                 <div className="bg-white p-4 rounded-lg shadow">
                   <h3 className="font-bold mb-2">Backend</h3>
                   <p>Node</p>
-                  <p>Mongo D</p>
+                  <p>Mongo DB</p>
 
                 </div>
               </div>
