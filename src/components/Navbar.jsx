@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-700 shadow-lg fixed w-full z-10">
+    <nav className="bg-gray-700 shadow-lg fixed w-full z-10" role="navigation" aria-label="Main navigation">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
@@ -43,11 +43,13 @@ const Navbar = () => {
           {/* Mobile Navigation Button */}
           <div className="md:hidden flex items-center">
             <button
-              className="outline-none"
+              className="outline-none text-white focus:ring-2 focus:ring-blue-400 rounded-md p-1"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
+              aria-expanded={isMenuOpen}
+              aria-label="Toggle menu"
             >
               <svg
-                className="w-6 h-6 text-gray-700"
+                className="w-6 h-6"
                 fill="none"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -68,44 +70,44 @@ const Navbar = () => {
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <div className="px-4 pt-4 pb-4 space-y-2 sm:px-6 bg-gray-700">
               <Link
                 href="/"
-                className="block px-3 py-2 text-gray-700 hover:text-gray-900"
+                className="block px-3 py-2 text-white hover:text-blue-300 rounded-md"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </Link>
               <Link
                 href="/about"
-                className="block px-3 py-2 text-gray-700 hover:text-gray-900"
+                className="block px-3 py-2 text-white hover:text-blue-300 rounded-md"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
               </Link>
               <Link
                 href="/about#skills"
-                className="block px-3 py-2 text-gray-700 hover:text-gray-900"
+                className="block px-3 py-2 text-white hover:text-blue-300 rounded-md"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Skills
               </Link>
               <Link
                 href="/projects"
-                className="block px-3 py-2 text-gray-700 hover:text-gray-900"
+                className="block px-3 py-2 text-white hover:text-blue-300 rounded-md"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Projects
               </Link>
               <Link
                 href="/contact"
-                className="block px-3 py-2 text-gray-700 hover:text-gray-900"
+                className="block px-3 py-2 text-white hover:text-blue-300 rounded-md"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact
               </Link>
               <Link
-                href="/contact"
+                href=""
                 className="block px-3 py-2 mt-2 text-blue-600 border-2 border-blue-600 rounded-full text-center hover:bg-blue-600 hover:text-white transition-colors duration-300"
                 onClick={() => setIsMenuOpen(false)}
               >

@@ -10,7 +10,7 @@ export default function About() {
       <Navbar />
       <div className="pt-16">
       {/* About Section */}
-      <section id="about" className="py-16 px-4 bg-black">
+  <section id="about" className="py-16 px-4 sm:px-6 lg:px-8 bg-black">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12 text-white">About Me</h2>
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -20,7 +20,7 @@ export default function About() {
                 alt="Profile"
                 width={400}
                 height={400}
-                className="rounded-lg shadow-lg"
+                className="rounded-lg shadow-lg w-full max-w-xs md:max-w-sm mx-auto object-cover"
               />
             </div>
             <div>
@@ -37,6 +37,10 @@ export default function About() {
                 <div className="bg-white p-4 rounded-lg shadow">
                   <h3 className="font-bold mb-2">Backend</h3>
                   <p>Node</p>
+                  <p>express js</p>
+                  <p>Mongo DB</p>
+
+
                 </div>
               </div>
             </div>
@@ -45,7 +49,7 @@ export default function About() {
       </section>
 
   {/* Skills Section */}
-        <section className="py-16 px-4 bg-gradient-to-r from-gray-600 to-blue-800">
+  <section id="skills" className="py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-gray-600 to-blue-800">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12 text-white">Skills & Expertise</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">

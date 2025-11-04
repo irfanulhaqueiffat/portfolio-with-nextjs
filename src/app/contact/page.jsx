@@ -4,36 +4,36 @@ import Footer from "../../components/Footer";
 
 export default function Contact() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-800">
       <Navbar />
       <div className="pt-16">
-      {/* Contact Section */}
-      <section id="contact" className="py-16 px-4">
+  {/* Contact Section */}
+  <section id="contact" className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-12">Get in Touch</h2>
+          <h2 className="text-3xl font-bold text-center  text-gray-200 mb-12">Get in Touch</h2>
           <form className="space-y-6">
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <label className="block text-gray-700 mb-2">Name</label>
+                <label className="block text-gray-200 mb-2">Name</label>
                 <input
                   type="text"
-                  className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full px-4 py-2 border   text-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                   placeholder="Your Name"
                 />
               </div>
               <div>
-                <label className="block text-gray-700 mb-2">Email</label>
+                <label className="block text-gray-200 mb-2">Email</label>
                 <input
                   type="email"
-                  className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  placeholder="Your Email"
+                  className="w-full px-4 py-2 border  text-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="Your Email "
                 />
               </div>
             </div>
             <div>
-              <label className="block text-gray-700 mb-2">Message</label>
+              <label className="block text-gray-200 mb-2">Message</label>
               <textarea
-                className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 h-32"
+                className="w-full px-4 py-2 border rounded-lg  text-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 h-32"
                 placeholder="Your Message"
               ></textarea>
             </div>

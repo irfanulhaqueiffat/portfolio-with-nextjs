@@ -3,8 +3,8 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import prof from '../../public/502909348_4079488505703572_2549706419031312301_n.jpg'
 import frontpg from'../../public/front page.jpg'
-import projct1 from '../../public/canvix.png';
-import projct2 from '../../public/nexton.png';
+import projct1 from '../../public/Screenshot 2025-11-04 170803.png';
+import projct2 from '../../public/project 2.png';
 import project3 from '../../public/bike.png'; 
 
 export default function Home() {
@@ -13,19 +13,19 @@ export default function Home() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-12 pb-12 px-4 text-center bg-gradient-to-b from-blue-50 to-white">
+      <section className="pt-12 pb-12 px-4 sm:px-6 lg:px-8 text-center bg-gradient-to-b from-blue-50 to-white">
         <div className="max-w-6xl mx-auto pt-16">
-          <h2  className="text-5xl font-bold text-gray-900 mb-6">Hi This Is <span className="text-orange-600">Irfanul Haque Iffat</span></h2>
-          <h1 className="text-3xl font-bold text-gray-900 mb-6">Welcome to My Portfolio</h1>
-          <p className="text-xl text-gray-600 mb-8">Full Stack Developer | Creative Problem Solver | Tech Enthusiast</p>
-          <button className="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition-colors">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Hi This Is <span className="text-orange-600">Irfanul Haque Iffat</span></h2>
+          <h1 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">Welcome to My Portfolio</h1>
+          <p className="text-base md:text-xl text-gray-600 mb-8">Full Stack Developer | Creative Problem Solver | Tech Enthusiast</p>
+          <a href="/contact" className="inline-block bg-blue-600 text-white px-6 md:px-8 py-3 rounded-full hover:bg-blue-700 transition-colors">
             Get in Touch
-          </button>
+          </a>
         </div>
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-16 px-4 bg-black">
+      <section id="about" className="py-16 px-4 sm:px-6 lg:px-8 bg-black">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12 text-white"> Web Developer And Desgin </h2>
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -35,7 +35,7 @@ export default function Home() {
                 alt="Profile"
                 width={400}
                 height={400}
-                className="rounded-lg shadow-lg"
+                className="rounded-lg shadow-lg w-full max-w-xs md:max-w-sm mx-auto object-cover"
               />
             </div>
             <div>
@@ -85,7 +85,7 @@ Synonyms: Can be broken down into front-end development (what the user sees and 
                 alt="Profile"
                 width={400}
                 height={400}
-                className="rounded-lg shadow-lg"
+                className="rounded-lg shadow-lg w-full max-w-xs md:max-w-sm mx-auto object-cover"
               />
             </div>
           </div>
