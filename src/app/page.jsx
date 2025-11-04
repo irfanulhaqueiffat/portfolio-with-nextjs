@@ -27,7 +27,7 @@ export default function Home() {
       {/* About Section */}
       <section id="about" className="py-16 px-4 sm:px-6 lg:px-8 bg-black">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-12 text-white"> Web Desgin And Web Development  </h2>
+          <h2 className="text-3xl font-bold text-center mb-12 text-white"> Web Desgn And Web Development  </h2>
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <Image
