@@ -30,11 +30,11 @@ export default function About() {
                 I create seamless digital experiences that solve real-world problems.
               </p>
               <div className="grid grid-cols-2 gap-4">
-                <div className="bg-white p-4 rounded-lg shadow">
+                <div className="bg-white p-4 rounded-lg text-gray-800  shadow">
                   <h3 className="font-bold mb-2">Frontend</h3>
                   <p>React, Next.js, Tailwind CSS</p>
                 </div>
-                <div className="bg-white p-4 rounded-lg shadow">
+                <div className="bg-white p-4 rounded-lg  text-gray-800 shadow">
                   <h3 className="font-bold mb-2">Backend</h3>
                   <p>Node</p>
                   <p>express js</p>
