@@ -1,7 +1,8 @@
 'use client';
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
-
+import qr from "../../../public/qr2.jpg"
+import Image from "next/image";
 export default function Contact() {
   return (
     <div className="min-h-screen bg-gray-800">
@@ -46,6 +47,15 @@ export default function Contact() {
               </button>
             </div>
           </form>
+          <div className="flex justify-center text-2xl text-gray-200 font-extrabold mt-12 mb-6">
+          
+            <Image
+              src={qr}
+              alt="QR Code"
+              width={250}/>
+      
+          </div>
+          
         </div>
       </section>
       </div>

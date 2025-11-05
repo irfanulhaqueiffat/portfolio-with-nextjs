@@ -2,13 +2,14 @@ import Link from "next/link";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
+import { TbBrandWhatsappFilled } from "react-icons/tb";
 
 
 
 const Footer = () => {
   return (
     <footer className="bg-gray-700 text-white">
-      <div className="max-w-6xl mx-auto px-4 py-8">
+      <div className="max-w-6xl mx-auto px-4 py-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* About Section */}
           <div>
@@ -62,6 +63,12 @@ const Footer = () => {
               </Link>
               <Link href="https://www.linkedin.com/in/irfanul-haque-iffat-8065b935b/" className="text-gray-300 hover:text-white">
               <FaLinkedin />
+              
+
+              </Link>
+            
+              <Link href="https://www.facebook.com/irfanfrontenddeveloper" className="text-gray-300 hover:text-white">
+              <TbBrandWhatsappFilled />
               
 
               </Link>

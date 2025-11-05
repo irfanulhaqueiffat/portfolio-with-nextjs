@@ -29,12 +29,19 @@ const Navbar = () => {
             <Link href="/projects" className="text-gray-200 hover:text-blue-400">
               Projects
             </Link>
-            <Link href="/contact"className="text-gray-200 hover:text-blue-400">
+            <Link href="/contact" className="text-gray-200 hover:text-blue-400">
               Contact
             </Link>
+            <a 
+              href="/irfan-cv.pdf" 
+              download
+              className="px-4 py-2 text-gray-200 border-2 border-gray-200 rounded-full hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
+            >
+              Download CV
+            </a>
             <Link 
-              href="/contact" 
-              className="px-4 py-2 text-blue-600 border-2 border-blue-600 rounded-full hover:bg-blue-600 hover:text-white transition-colors duration-300"
+              href="https://wa.me/message/YD6SZLV35O67B1" 
+              className="px-4 py-2 text-black border-2 border-blue-600 rounded-full hover:bg-blue-600 hover:text-white transition-colors duration-300"
             >
               Hire Me
             </Link>
@@ -106,13 +113,22 @@ const Navbar = () => {
               >
                 Contact
               </Link>
-              <Link
-                href=""
-                className="block px-3 py-2 mt-2 text-blue-600 border-2 border-blue-600 rounded-full text-center hover:bg-blue-600 hover:text-white transition-colors duration-300"
+             <Link
+  href="/irfan-cv.pdf"
+  download="irfan-cv"
+  className="block px-3 py-2 mt-2 text-gray-200 border-2 border-gray-200 rounded-full text-center hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
+  onClick={() => setIsMenuOpen(false)}
+>
+  Download CV
+</Link>
+
+              <a
+                href="https://www.facebook.com/irfanfrontenddeveloper"
+                className="block px-3 py-2 mt-2 text-gray-200 border-4 border-blue-600 rounded-full text-center hover:bg-orange-600 hover:text-white transition-colors duration-400"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Hire Me
-              </Link>
+              </a>
             </div>
           </div>
         )}
