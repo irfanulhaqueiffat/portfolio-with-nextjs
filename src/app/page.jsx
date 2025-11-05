@@ -66,18 +66,7 @@ Synonyms: Can be broken down into front-end development (what the user sees and 
               <p className="text-lg  mb-6 text-white">
               A full stack developer is a professional who can work on both the front-end (what the user sees and interacts with) and the back-end (server-side logic, data, and databases) of a website or application. This role requires proficiency in both client-side technologies like HTML, CSS, and JavaScript, as well as server-side languages such as Python or Node.js, and database management systems like SQL or MongoDB. Full stack developers are involved in the entire development process, from building the user interface to managing the data and server infrastructure.  
               </p>
-              <div className="grid grid-cols-2 gap-4">
-                <div className="bg-white p-4 rounded-lg shadow">
-                  <h3 className="font-bold mb-2">Frontend</h3>
-                  <p>React, Next.js, Tailwind CSS</p>
-                </div>
-                <div className="bg-white p-4 rounded-lg shadow">
-                  <h3 className="font-bold mb-2">Backend</h3>
-                  <p>Node</p>
-                  <p>Mongo DB</p>
-
-                </div>
-              </div>
+      
             </div>
              <div>
               <Image
